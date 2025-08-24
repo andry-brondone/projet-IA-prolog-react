@@ -1,4 +1,4 @@
-import { Shield, Zap, Users, GraduationCap } from "lucide-react";
+import { GraduationCap, Shield, Users, Zap } from "lucide-react";
 
 export const Header = () => (
   <div className="bg-white/90 backdrop-blur-xl rounded-3xl p-4 sm:p-6 lg:p-8 border border-gray-200/60 shadow-sm transition-all duration-500 mb-6 sm:mb-8 lg:mb-10">
@@ -59,12 +59,12 @@ export const Header = () => (
           <div className="space-y-2 grid grid-cols-2 gap-1">
             {[
               "1332 H-F",
-              "1333 H-G",
-              "1334 H-H",
-              "1335 H-I",
-              "1336 H-J",
-              "1337 H-K",
-              "1338 H-L",
+              "1324 H-F",
+              "1281 H-F",
+              "1294 H-F",
+              "1235 H-F",
+              "1334 H-F",
+              "1339 H-F",
             ].map((membre, index) => (
               <div
                 key={index}
